@@ -11,7 +11,8 @@ function App() {
     <div className="App">
       {/* <Login/> */}
         <Router basename="/">               
-      <Home/> 
+
+      <Home/>
       </Router>
       {/* <Policy/> ? */}  
       {/* <Login/> */}
@@ -20,6 +21,7 @@ function App() {
       <Policy/>
       <Policy/>
       <Policy/> */}
+      <Login/>
 
     </div>
   );

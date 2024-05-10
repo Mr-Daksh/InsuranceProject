@@ -1,9 +1,12 @@
 /* Home.css */
 
 .container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Ensure the container takes up the full viewport height */
+   display: flex;
+  width: 100%;
+  align-items: center;
+  min-height: 100vh;
+  height: 100%;
+
 }
 
 .navbar {
@@ -15,11 +18,16 @@
   z-index: 1000;
 }
 
-.content {
-  flex: 1; /* Allow the content section to grow and take up the remaining space */
-  padding-top: 60px; /* Adjust this value based on the height of the navbar */
+content {
+  flex: 1;
+  padding-top: 60px; 
+  display: flex; /* Use flexbox to position components within the content */
+  flex-direction: column; /* Stack components vertically */
+  align-items: center; /* Center components horizontally */
+  justify-content: center; /* Center components vertically */
 }
 
 .footer {
   width: 100%;
+  margin-top : auto ; 
 }

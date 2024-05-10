@@ -12,8 +12,9 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import '../footer/Footer.css'
 
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Policies', 'AboutUs', 'ContactUs'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navbar() {
@@ -55,7 +56,8 @@ function Navbar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+               <span className="ft-sign">+</span>
+
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>

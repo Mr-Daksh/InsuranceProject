@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Doctor from '../../assests/doctor-picture.png'
+import Doctor from '../../assests/main2.png'
 import './Hero.css'
 
 

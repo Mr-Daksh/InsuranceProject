@@ -1,0 +1,16 @@
+.tick {
+    list-style-type: none;
+}
+.tick:before {
+    content: "\2713"; /* Unicode character for tick mark */
+    margin-right: 5px;
+}
+.information-container{
+    background-color: white;
+    margin: 0 10px;
+    width: 30%;
+}
+.information-button {
+    background-color: var(--dark-blue);
+    background-color: red;
+}

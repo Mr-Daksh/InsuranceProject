@@ -11,15 +11,15 @@ function App() {
     <div className="App">
       {/* <Login/> */}
         <Router basename="/">               
-      {/* <Home/> */}
+      <Home/>
       </Router>
       {/* <Policy/> ? */}  
       {/* <Login/> */}
+      {/* <Policy/>
       <Policy/>
       <Policy/>
       <Policy/>
-      <Policy/>
-      <Policy/>
+      <Policy/> */}
 
     </div>
   );

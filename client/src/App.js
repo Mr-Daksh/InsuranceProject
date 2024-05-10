@@ -21,6 +21,7 @@ function App() {
       <Policy/>
       <Policy/>
       <Policy/> */}
+      <Login/>
 
     </div>
   );

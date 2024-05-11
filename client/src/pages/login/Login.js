@@ -17,12 +17,13 @@ const Login = () => {
       <div>
         <div className="form-container sign-up-container">
           <form action="#">
-            <h1>Request Demo</h1>
-            <input type="email" placeholder="Full Name" id="email" />
+            <h1>New User</h1>
+            <input type="email" placeholder="Email" id="email" />
             <span id="error-email"></span>
-            <input type="password" placeholder="Number" id="password" />
+            <input type="password" placeholder="Password" id="password" />
+            <input type="password" placeholder="Cofirm-Password" id="confirm-password" />
             <span id="error-password"></span>
-            <button id="register">Request Demo</button>
+            <button id="register">Register User</button>
           </form>
         </div>
         <div className="form-container sign-in-container">
@@ -43,9 +44,9 @@ const Login = () => {
               <button className="ghost" onClick={handleSignInClick}>Sign In</button> 
             </div>
             <div className="overlay-panel overlay-right">
-              <h1>Hello!</h1>
+              <h1>New User!</h1>
               <p>Start your journey with us</p>
-              <button className="ghost" onClick={handleSignUpClick}>Request Demo</button>
+              <button className="ghost" onClick={handleSignUpClick}>Register Now </button>
             </div>
           </div>
         </div>

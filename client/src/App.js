@@ -8,10 +8,10 @@ import Policy from './components/policy/Policy';
 
 function App() {
   return (
-    <div className="App">
-      {/* <Login/> */}
+    <div className="App">   
+    <Login/>
         <Router basename="/">               
-      <Home/> 
+      {/* <Home/>    */}
       </Router>
       {/* <Policy/> ? */}  
       {/* <Login/> */}

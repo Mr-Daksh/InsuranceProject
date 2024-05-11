@@ -124,3 +124,10 @@
         display: block;
     }
 }
+.right-nav {
+    display: flex;
+}
+
+.avatar {
+    margin-right: 10px;
+}

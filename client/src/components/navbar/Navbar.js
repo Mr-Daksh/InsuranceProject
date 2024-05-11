@@ -1,14 +1,10 @@
 
 import React, { useState } from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {
-//   faCommentDots,
-//   faBars,
-//   faXmark,
-// } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import { toast } from "react-toastify";
 import './Navbar.css'
+import Avatar from '@mui/material/Avatar';
+import Cart from "../cart/Cart";
+
 
 function Navbar() {
   const [nav, setNav] = useState(false);    
@@ -18,21 +14,12 @@ function Navbar() {
     setNav(!nav);
   };
 
-  const handleChatBtnClick = () => {
-    if (!isButtonDisabled) {
-      toast.info("Experiencing high traffic, Please wait a moment.", {
-        position: toast.POSITION.TOP_CENTER,
-        onOpen: () => setIsButtonDisabled(true),
-        onClose: () => setIsButtonDisabled(false),
-      });
-    }
-  };
 
   return (
     <div className="navbar-section">
       <h1 className="navbar-title">
         <Link to="/">
-          Health <span className="navbar-sign">+</span>
+          Policy <span className="navbar-sign">+</span>
         </Link>
       </h1>
 
@@ -65,19 +52,10 @@ function Navbar() {
         </li>
       </ul>
 
-      <button
-        className="navbar-btn"
-        type="button"
-        disabled={isButtonDisabled}
-        onClick={handleChatBtnClick}
-      >
-        {/* <FontAwesomeIcon icon={faCommentDots} /> Live Chat */}
-      </button>
 
       {/* Mobile */}
       <div className={`mobile-navbar ${nav ? "open-nav" : ""}`}>
         <div onClick={openNav} className="mobile-navbar-close">
-          {/* <FontAwesomeIcon icon={faXmark} className="hamb-icon" /> */}
         </div>
 
         <ul className="mobile-navbar-links">
@@ -106,21 +84,18 @@ function Navbar() {
               Doctors
             </a>
           </li>
-          <li>
-            <a onClick={openNav} href="#contact">
-              Contact
-            </a>
-          </li>
         </ul>
       </div>
 
       {/* Hamburger Icon */}
-      <div className="mobile-nav">
-        {/* <FontAwesomeIcon
-          icon={faBars}
-          onClick={openNav}
-          className="hamb-icon"
-        /> */}
+      <div className="right-nav">
+      <Avatar
+        alt="Remy Sharp"
+        src="/static/images/avatar/1.jpg"
+        sx={{ width: 40, height: 40 }}
+        className="avatar"
+      />
+      <Cart/>
       </div>
     </div>
   );

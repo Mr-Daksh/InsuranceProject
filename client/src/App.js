@@ -9,7 +9,7 @@ import Policy from './components/policy/Policy';
 function App() {
   return (
     <div className="App">   
-    <Login/>
+    {/* <Login/> */}
         <Router basename="/">               
       <Home/> 
       </Router>
@@ -20,7 +20,7 @@ function App() {
       <Policy/>
       <Policy/>
       <Policy/> */}
-      <Login/>
+      {/* <Login/> */}
 
     </div>
   );

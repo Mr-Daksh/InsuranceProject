@@ -74,6 +74,19 @@
 .fa-icon {
     color: #9D2553;
 }
+
+.info-title > h2 {
+    position: relative;
+}
+.info-title h2::before {
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 4px;
+    background-color: #9D2553;
+    border-radius: 8px;
+    bottom: -12px;
+}
 /* Responsive */
 @media screen and (max-width: 1000px) {
     .about-section {

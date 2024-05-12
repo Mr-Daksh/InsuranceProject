@@ -5,14 +5,14 @@ import './About.css'
 
 function About() {
   return (
+    
     <div className="about-section" id="about">
       <div className="about-image-content">
         <img src={Aboutt} alt="Doctor Group" className="about-image1" />
       </div>
-
       <div className="about-text-content">
         <h3 className="about-title">
-          <span>About Us</span>
+          <span>Why Us</span>
         </h3>
         <p className="about-description">
           Welcome to Health Plus, your trusted partner for accessible and

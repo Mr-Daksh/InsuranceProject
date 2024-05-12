@@ -6,6 +6,7 @@ import Info from '../../components/info/Info'
 import Doctors from '../../components/doctors/Doctors'
 import './Home.css'
 import About from '../aboutus/About'
+import Reviews from '../../components/reviews/Reviews'
 
 export const Home = () => {
   return ( 
@@ -18,6 +19,7 @@ export const Home = () => {
         <div className='content'>
         <Hero/>
         <Info/> 
+        <Reviews/>
         <Doctors/>
         <About/>
         </div>

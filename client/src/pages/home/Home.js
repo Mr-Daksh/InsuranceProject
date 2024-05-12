@@ -5,6 +5,7 @@ import Hero from '../../components/hero/Hero'
 import Info from '../../components/info/Info'
 import Doctors from '../../components/doctors/Doctors'
 import './Home.css'
+import About from '../aboutus/About'
 
 export const Home = () => {
   return ( 
@@ -18,6 +19,7 @@ export const Home = () => {
         <Hero/>
         <Info/> 
         <Doctors/>
+        <About/>
         </div>
 
         <div className='footer'>

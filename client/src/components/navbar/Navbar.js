@@ -31,8 +31,8 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <a href="#services" className="navbar-links">
-            Services
+          <a href="#Policies" className="navbar-links">
+            Policies
           </a>
         </li>
         <li>
@@ -46,8 +46,8 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#doctors" className="navbar-links">
-            Doctors
+          <a href="#partners" className="navbar-links">
+            Partners
           </a>
         </li>
       </ul>
@@ -80,8 +80,8 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a onClick={openNav} href="#doctors">
-              Doctors
+            <a onClick={openNav} href="#partners">
+              Partners
             </a>
           </li>
         </ul>

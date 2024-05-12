@@ -15,39 +15,39 @@ function Doctors() {
         </h3>
 
         <p className="dt-description">
-          Meet our exceptional team of specialist Partners, dedicated to
-          providing top-notch healthcare services at Health Plus. Trust in their
-          knowledge and experience to lead you towards a healthier and happier   
-          life.
+
+        Discover our esteemed team of expert Partners committed to delivering premium Policies
+        services at Policy Plus. Rely on their expertise and experience to guide you towards a
+        healthier and more fulfilling life.
         </p>
       </div>
 
       <div className="dt-cards-content">
         <DoctorCard
-          img={profile1}
-          name="Dr. Kathryn Murphy"
-          title="General Surgeons"
+          img={profile1}     
+          name="Google Life Partners"
+          title="Long-Term Care Insurance"
           stars="4.9"
           reviews="1800"
         />
         <DoctorCard
           img={profile2}
-          name="Dr. Jacob Jones"
-          title="Hematologists"
+          name="Harley-Davidson"
+          title="Auto Insurance Policy"
           stars="4.8"
           reviews="700"
         />
         <DoctorCard
           img={profile3}
-          name="Dr. Jenny Wilson"
-          title="Endocrinologists"
+          name="Jio : Reliance Partners"
+          title="Family Protection Plan"
           stars="4.7"
           reviews="450"
         />
         <DoctorCard
           img={profile4}
-          name="Dr. Albert Flores"
-          title="Hematologists"
+          name="Together & Stronger"
+          title="Life Insurance Coverage"
           stars="4.8"
           reviews="500"
         />

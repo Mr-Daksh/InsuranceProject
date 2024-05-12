@@ -15,28 +15,31 @@ function About() {
           <span>Why Us</span>
         </h3>
         <p className="about-description">
-          Welcome to Health Plus, your trusted partner for accessible and
-          personalized healthcare. Our expert doctors offer online consultations
-          and specialized services, prioritizing your well-being. Join us on
-          this journey towards a healthier you.
+
+        Welcome to Policy Plus, your reliable destination for accessible and tailored insurance solutions. Our team
+         of seasoned professionals provides online consultations and specialized services, placing your security 
+         at the forefront. Partner with us on this path towards a more protected future.
         </p>
 
-        <h4 className="about-text-title">Your Solutions</h4>
+        <h4 className="about-text-title">Our Solutions</h4>
 
         <SolutionStep
-          title="Choose a Specialist"
-          description="Find your perfect specialist and book with ease at Health Plus. Expert doctors prioritize your health, offering tailored care."
+          title="Comprehensive Coverage Options"
+          description="eamless Specialist Selection: Prioritize Your Health with Tailored Care at Health Plus. Expert Doctors Ensure
+           Your Well-being, Offering Personalized Services for an Enhanced Healthcare Experience"
         />
 
         <SolutionStep
-          title="Make a Schedule"
-          description="Choose the date and time that suits you best, and let our dedicated team of medical professionals ensure your well-being with personalized care."
+          title="Flexible Insurance Plans"
+          description="Customized Appointment Scheduling: Optimal Convenience for Your Well-being,
+           Guided by Our Dedicated Medical Professionals' Personalized Care"
         />
 
         <SolutionStep
-          title="Get Your Solutions"
-          description="Our experienced doctors and specialists are here to provide expert advice and personalized treatment plans, helping you achieve your best possible health."
-        />
+          title="Holistic Risk Management Strategies"
+          description="Tailored Appointment Coordination: Choose Your Preferred Date and Time for
+           Personalized Well-being, Supported by Our Dedicated Medical Professionals at Health Plus."
+          />
       </div>
     </div>
   )

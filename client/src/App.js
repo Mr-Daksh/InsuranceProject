@@ -3,16 +3,16 @@ import Login from './pages/login/Login'
 import { Home } from './pages/home/Home';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Policy from './components/policy/Policy';
+import About from './pages/aboutus/About';
 
 
 
 function App() {
   return (
-    <div className="App">
-      {/* <Login/> */}
+    <div className="App">   
+    {/* <Login/> */}
         <Router basename="/">               
-
-      <Home/>
+      <Home/> 
       </Router>
       {/* <Policy/> ? */}  
       {/* <Login/> */}
@@ -21,7 +21,8 @@ function App() {
       <Policy/>
       <Policy/>
       <Policy/> */}
-      <Login/>
+      {/* <Login/> */}
+      {/* <About/> */}
 
     </div>
   );

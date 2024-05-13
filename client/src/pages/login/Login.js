@@ -16,13 +16,14 @@ const Login = () => {
     <div className={`container ${isSignUp ? 'right-panel-active' : ''}`} id="container-login">
       <div>
         <div className="form-container sign-up-container">
-          <form className='form' action="#">
-            <h1 className='h1'>Request Demo</h1>
-            <input className='input' type="email" placeholder="Full Name" id="email" />
-            <span className='span' id="error-email"></span>
-            <input className='input' type="password" placeholder="Number" id="password" />
-            <span className='span' id="error-password"></span>
-            <button className='button' id="register">Request Demo</button>
+          <form action="#">
+            <h1>New User</h1>
+            <input type="email" placeholder="Email" id="email" />
+            <span id="error-email"></span>
+            <input type="password" placeholder="Password" id="password" />
+            <input type="password" placeholder="Cofirm-Password" id="confirm-password" />
+            <span id="error-password"></span>
+            <button id="register">Register User</button>
           </form>
         </div>
         <div className="form-container sign-in-container">
@@ -43,9 +44,9 @@ const Login = () => {
               <button className="ghost button" onClick={handleSignInClick}>Sign In</button> 
             </div>
             <div className="overlay-panel overlay-right">
-              <h1 className='h1'>Hello!</h1>
-              <p className='p'>Start your journey with us</p>
-              <button className="ghost button" onClick={handleSignUpClick}>Request Demo</button>
+              <h1>New User!</h1>
+              <p>Start your journey with us</p>
+              <button className="ghost" onClick={handleSignUpClick}>Register Now </button>
             </div>
           </div>
         </div>

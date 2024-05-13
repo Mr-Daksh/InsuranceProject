@@ -1,50 +1,56 @@
 import React from "react";
 import InformationCard from "../../informationcard/InformationCard";
-import './Info.css'
+import "./Info.css";
+import { faTruckMedical } from "react-fontawesome";
+import { faHeartPulse } from "react-fontawesome";
+import { faTooth } from "react-fontawesome";
+import VaccinesIcon from '@mui/icons-material/Vaccines';
+import PolicyIcon from '@mui/icons-material/Policy';
+import AssuredWorkloadIcon from '@mui/icons-material/AssuredWorkload';
+
 function Info() {
   return (
     <div className="info-section" id="services">
       <div className="info-title-content">
         <h3 className="info-title">
-          <span>What We Do</span>
+          <h2>What We Do</h2>
         </h3>
         <p className="info-description">
-          We bring healthcare to your convenience, offering a comprehensive
-          range of on-demand medical services tailored to your needs. Our
-          platform allows you to connect with experienced online doctors who
-          provide expert medical advice, issue online prescriptions, and offer
-          quick refills whenever you require them.
+          We bring Safety to your convenience, offering a comprehensive range of
+          on-demand Policies services tailored to your needs. Our platform
+          allows you to connect with experienced Policies which provide expert
+          medical advice, issue online insurances, and offer quick refills
+          whenever you require them.
         </p>
       </div>
 
       <div className="info-cards-content">
         <InformationCard
           title="Policy1"
-          description="Our Emergency Care service is designed to be your reliable support
-            in critical situations. Whether it's a sudden illness, injury, or
-            any medical concern that requires immediate attention, our team of
-            dedicated healthcare professionals is available 24/7 to provide
-            prompt and efficient care."
-        //   icon={faTruckMedical}
+          description="
+          Our Emergency Response service is structured to be your steadfast ally during
+           urgent situations. Whether it's a sudden crisis, disaster, or any pressing issue that
+            demands immediate action, our team of committed policy experts is accessible round-the-clock
+             to offer swift and effective assistance."
+             icons ={<VaccinesIcon/>}
         />
+
 
         <InformationCard
           title="Policy2"
-          description="Our team of experienced cardiologists and medical experts use
-            state-of-the-art technology to assess your cardiovascular health and
-            design personalized treatment plans. From comprehensive screenings
-            to advanced interventions, we are committed to helping you maintain
-            a healthy heart and lead a fulfilling life."
-        //   icon={faHeartPulse}
+          description="Our team of seasoned policy analysts and experts utilize cutting-edge methodologies to evaluate various 
+          legislative measures and design tailored policy recommendations. From exhaustive policy assessments to innovative
+           interventions, we are dedicated to aiding in the creation of effective governance frameworks and promoting 
+           societal well-being."
+          icons={<PolicyIcon/>}
         />
 
         <InformationCard
           title="Policy3"
-          description="Smile with confidence as our Dental Care services cater to all your
-            oral health needs. Our skilled dentists provide a wide range of
-            treatments, from routine check-ups and cleanings to cosmetic
-            procedures and restorative treatments."
-        //   icon={faTooth}
+          description="Radiate assurance as our Dental Policy services address all aspects of oral healthcare.
+           Our proficient policy analysts offer a diverse array of solutions, from standard evaluations and
+            preventive measures to cosmetic enhancements and rehabilitative interventions."
+          icons={<AssuredWorkloadIcon/>}
         />
       </div>
     </div>
